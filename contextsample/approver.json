@@ -1,0 +1,21 @@
+{
+  "@context": "$metadata#Approver",
+  "@metadataEtag": "W/\"eaf5c645e98897ba7a24007067088d12dbc6df3ad7bbab7d8b4cd5f26ac2d46e\"",
+  "value": [
+    {
+      "approve": "shili.ma@hand-china.com",
+      "approve_name": "ShiliMa",
+      "approve_up": null
+    },
+    {
+      "approve": "vicky.shao@hand-china.com",
+      "approve_name": "vicky.shao",
+      "approve_up": "shili.ma@hand-china.com"
+    },
+    {
+      "approve": "wayne.yao@hand-china.com",
+      "approve_name": "WeihuaYao",
+      "approve_up": "vicky.shao@hand-china.com"
+    }
+  ]
+}

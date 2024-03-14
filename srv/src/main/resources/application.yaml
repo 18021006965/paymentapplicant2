@@ -1,0 +1,27 @@
+spring:
+  config.activate.on-profile: default
+  sql.init.schema-locations: classpath:schema-h2.sql
+  # web.resources.static-locations: file:./app/
+cds:
+  datasource.auto-config.enabled: true
+  odata-v4.endpoint.path: /api
+  security.mock.users:
+    - name: admin
+      password: admin
+      roles:
+        - admin
+
+springdoc:
+  swagger-ui:
+    # 修改Swagger UI路径
+    path: /swagger-ui.html
+    # 开启Swagger UI界面
+    enabled: true
+  api-docs:
+    # 修改api-docs路径
+    path: /v3/api-docs
+    # 开启api-docs
+    enabled: true
+  # 配置需要生成接口文档的扫描包
+  packages-to-scan: customer.paymentapplicant.Controller
+ 
